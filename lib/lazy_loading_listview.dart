@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class LazyLoadingListview extends StatefulWidget {
- // const LazyLoadingListview({Key key}) : super(key: key);
+  // const LazyLoadingListview({Key key}) : super(key: key);
 
   @override
   _LazyLoadingListviewState createState() => _LazyLoadingListviewState();

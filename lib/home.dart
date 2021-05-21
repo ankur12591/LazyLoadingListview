@@ -19,10 +19,9 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child:
-            LazyLoadingListview(),
+        child: LazyLoadingListview(),
 
-            //LazyLoadingWithPackage(),
+        //LazyLoadingWithPackage(),
       ),
     );
   }

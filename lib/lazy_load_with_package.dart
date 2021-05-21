@@ -24,7 +24,6 @@ class _LazyLoadingWithPackageState extends State<LazyLoadingWithPackage> {
     setState(() {
       isLoading = true;
       const CupertinoActivityIndicator();
-
     });
 
     // Add in an artificial delay
@@ -87,7 +86,7 @@ class DemoItem extends StatelessWidget {
               ],
             ),
             const Padding(
-              padding: EdgeInsets.symmetric(vertical:10.0),
+              padding: EdgeInsets.symmetric(vertical: 10.0),
               child: Text("This is Lazy Loading working test"),
             ),
           ],
